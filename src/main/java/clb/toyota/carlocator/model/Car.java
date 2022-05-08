@@ -24,10 +24,12 @@ public class Car implements Serializable {
     private Date dateIn;
 
     public Long getId() {
+
         return id;
     }
 
     public void setId(Long id) {
+
         this.id = id;
     }
 
@@ -36,54 +38,67 @@ public class Car implements Serializable {
     }
 
     public void setChassiNumber(String chassiNumber) {
+
         this.chassiNumber = chassiNumber;
     }
 
     public String getRegNumber() {
+
         return regNumber;
     }
 
     public void setRegNumber(String regNumber) {
+
         this.regNumber = regNumber;
     }
 
     public int getKeysNumber() {
+
         return keysNumber;
     }
 
     public void setKeysNumber(int keysNumber) {
+
         this.keysNumber = keysNumber;
     }
 
     public String getModelName() {
+
         return modelName;
     }
 
     public void setModelName(String modelName) {
+
         this.modelName = modelName;
     }
 
     public String getColor() {
+
         return color;
     }
 
     public void setColor(String color) {
+
         this.color = color;
     }
 
     public boolean isFuelStatus() {
+
         return fuelStatus;
     }
 
     public void setFuelStatus(boolean fuelStatus) {
+
         this.fuelStatus = fuelStatus;
     }
 
     public Date getDateIn() {
+
         return dateIn;
     }
 
     public void setDateIn(Date dateIn) {
+
         this.dateIn = dateIn;
     }
 
